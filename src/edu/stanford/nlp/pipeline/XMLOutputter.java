@@ -51,7 +51,7 @@ public class XMLOutputter {
     public String encoding = "UTF-8";
     /** How to print a constituent tree */
     public TreePrint constituentTreePrinter = DEFAULT_CONSTITUENT_TREE_PRINTER;
-    /** Print only non-singleton entities*/
+    /** If false, will print only non-singleton entities*/
     public boolean printSingletons = false;
   }
 
